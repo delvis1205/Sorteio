@@ -1,7 +1,7 @@
 services:
   - type: web
     name: n8n
-    env: docker
+    runtime: image
     plan: free
     image:
       url: docker.io/n8nio/n8n:latest
